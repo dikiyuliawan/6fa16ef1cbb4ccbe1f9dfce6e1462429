@@ -25,8 +25,8 @@ if (!isset($input->email) || !isset($input->password)) {
 }
 
 $user = [
-    'email' => 'johndoe@example.com',
-    'password' => 'qwerty123'
+    'email' => 'diki@example.com',
+    'password' => 'pass123'
 ];
 
 if ($input->email !== $user['email'] || $input->password !== $user['password']) {
